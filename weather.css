@@ -62,7 +62,7 @@ input{
     background-color: rgb(231, 134, 134);
 }
 .con{
-    background-image: url(gradient.png);
+    background-image: url(images/gradient.png);
     background-size: cover;
     padding-top: 50px;
     width: 30%;
