@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <title>PY Weather</title>
+  </head>
+  <body>
+    <div class="heading">
+        <div class="logo">
+            <img src="image.png" alt="error">
+            <h5>PY Weather</h5>
+        </div>
+        <div id="search">
+            <input id="c" type="text" placeholder="Search for a city">
+            <button id="btn">
+                <img id="sl" src="search_logo.png" alt="error">
+            </button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="con">
+            <div class="sd">
+                 <h2>Temerature</h2>
+                 <div class="info">
+                     <img src="temp_logo.png" alt="">
+                     <h2 id="temp">--</h2>
+                 </div>
+            </div>
+            <div class="sd">
+                <h2>Humidity</h2>
+                <div class="info">
+                    <img id="h" src="humidity_logo.png" alt="">
+                    <h2 id="humidity">--</h2>
+                </div>
+            </div>
+            <div class="sd">
+                <h2>Wind</h2>
+                <div class="info">
+                    <img src="wind_logo.png" alt="">
+                    <h2 id="wind">--</h2>
+                </div>
+            </div>
+            <div id="location">
+                <h2 id="loc">City</h2>
+            </div>
+        </div>
+        <div id="text" class="text">
+            Nature is so powerful, so strong. Capturing its essence is not easy - your work becomes a dance with light and the weather. It takes you to a place within yourself.
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Made with ❤️ By <span id="sign">Samar</span></h2>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

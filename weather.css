@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hellix', sans-serif;
+    background-color: black;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 70vh;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.logo img{
+    width: 60px;
+    height: auto;
+}
+#sl{
+    width: 30px;
+    margin: 0px;
+    height: auto;
+}
+.logo{
+    margin-left: 90px;
+    margin-top: 50px;
+    color: rgb(231, 134, 134);
+}
+#search{
+    margin-top: 60px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+input{
+    height: 40px;
+    border-radius: 8px;
+    width: 200px;
+    border: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 10px;
+    font-family: 'Electrolize', sans-serif;
+}
+#btn{
+    border-radius: 8px;
+    width: 40px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(231, 134, 134);
+}
+.con{
+    background-image: url(gradient.png);
+    background-size: cover;
+    padding-top: 50px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    color: black;
+}
+.con img{
+    margin: 0px;
+    width: 30px;
+}
+.text{
+    width: 50%;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    font-family: 'Electrolize', sans-serif;
+}
+.sd{
+    /* margin-top: 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sd>h2{
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#h{
+    width: 30px;
+    height: auto;
+}
+#location{
+    background-color: rgba(255, 185, 185, 0.467);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    /* padding-left: 50px; */
+    font-family: 'Electrolize', sans-serif;
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+#sign{
+    padding-left: 10px;
+    color: rgb(231, 134, 134);
+    font-family: 'Electrolize', sans-serif;
+}
+#btn:hover{
+    background-color: rgb(232, 100, 100);
+}
+#temp,#wind,#humidity{
+    font-size: 30px;
+}
+
+@media screen AND (max-width: 768px) {
+    .main{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .con{
+        width: 80%;
+    }
+    .text{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .heading{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo,#search{
+        margin:0px;
+        margin-top: 15px;
+    }
+    .footer{
+        padding-top: 25px;
+    }
+}
