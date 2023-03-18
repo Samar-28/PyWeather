@@ -12,12 +12,12 @@ body{
     justify-content: space-between;
     color: white;
     font-family: 'Electrolize', sans-serif;
+    margin-bottom: 80px;
 }
 .main{
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    height: 70vh;
 }
 img{
     width: 50px;
@@ -139,7 +139,6 @@ input{
     .main{
         flex-direction: column;
         margin-top: 50px;
-        height: 90vh;
     }
     .con{
         width: 80%;
