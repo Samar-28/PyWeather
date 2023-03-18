@@ -139,6 +139,7 @@ input{
     .main{
         flex-direction: column;
         margin-top: 50px;
+        height: 90vh;
     }
     .con{
         width: 80%;
